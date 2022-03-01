@@ -33,22 +33,37 @@
 }
 
 
+.title {
+    width: 100%;
+    max-width: 343px;
+    height: 102px;
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 90px;
+    letter-spacing: -2px;
+    color: #242635;
+}
 
+.text {
+    width: 100%;
+    max-width: 410px;
+    height: 98px;
+    font-family: Source Sans Pro;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 33px;
+    color: #242635;
+}
 
+.arrow {
+    width: 100%;
+    max-width: 16px;
+    height: 40px;
+}
 
-
-
-
-
-
-
-.adaptive /*.pic-bg, .img-bg*/ {
-    /*background-color: beige;*/
+.adaptive {
     width: 100%;
     height: 100vh;
-    /*background-size: cover;
-    background-repeat: no-repeat;
-    background-position: right;*/
 }
 
  @media screen and (max-width: 1000px) {
@@ -66,11 +81,4 @@
     .adaptive-bg {
         background-image: url('../images/Bitmap.png');
     }
-} */
-
-/* @media screen and (min-width: 801px) and (max-width: 1000px) {
-    .adaptive-bg {
-        background-image: url('../images/bg-m.jpg');
-    }
-} */
-
+} 
