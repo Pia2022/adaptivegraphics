@@ -1,0 +1,76 @@
+
+.logo {
+    width: 100%;
+    max-width: 90px;
+    height: 36px;
+    color: #242635;
+}
+
+.list {
+    width: 100%;
+    max-width: 267px;
+    height: 25px;
+    color:#242635;
+    font-family: Source Sans Pro;
+}
+
+.works {
+    width: 100%;
+    max-width: 42px;
+    height: 23px;
+}
+
+.services {
+    width: 100%;
+    max-width: 56px;
+    height: 23px;
+}
+
+.contacs {
+    width: 100%;
+    max-width: 59px;
+    height: 23px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.adaptive /*.pic-bg, .img-bg*/ {
+    /*background-color: beige;*/
+    width: 100%;
+    height: 100vh;
+    /*background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right;*/
+}
+
+ @media screen and (max-width: 1000px) {
+    .adaptive-bg {
+        background-image: url('../images/Bitmap.png');
+    }
+} 
+@media screen and (max-width: 800px) {
+    .adaptive-bg {
+        background-image: url('../images/Bitmap.png');
+    }
+}
+
+ @media screen and (min-width: 1001px) {
+    .adaptive-bg {
+        background-image: url('../images/Bitmap.png');
+    }
+} */
+
+/* @media screen and (min-width: 801px) and (max-width: 1000px) {
+    .adaptive-bg {
+        background-image: url('../images/bg-m.jpg');
+    }
+} */
+
