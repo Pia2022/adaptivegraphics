@@ -1,6 +1,23 @@
-.container {
+body {
+    max-width: 1440px;
+}
+
+main {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.content-one {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+nav {
+    display: flex;
+
 }
 
 .logo {
@@ -8,6 +25,11 @@
     max-width: 90px;
     height: 36px;
     color: #242635;
+    font-family: Baloo;
+    font-weight: 400;
+    font-size: 24px;
+    font-size: 36px;
+    letter-spacing: -0.25 px;
 }
 
 .list {
@@ -17,71 +39,83 @@
     color:#242635;
     font-family: Source Sans Pro;
 }
-
+/*
 .works {
-    width: 100%;
     max-width: 42px;
     height: 23px;
 }
 
 .services {
-    width: 100%;
     max-width: 56px;
     height: 23px;
 }
 
 .contacs {
-    width: 100%;
     max-width: 59px;
     height: 23px;
 }
+*/
 
-.title {
+.content-two {
+    display: flex;
+    flex-direction: column;
     width: 100%;
+    color: #242635;
+}
+
+.title {    
     max-width: 343px;
     height: 102px;
     font-family: Poppins;
     font-weight: 500;
     font-size: 90px;
     letter-spacing: -2px;
-    color: #242635;
 }
 
-.text {
-    width: 100%;
+.text {    
     max-width: 410px;
     height: 98px;
     font-family: Source Sans Pro;
     font-weight: normal;
     font-size: 22px;
     line-height: 33px;
-    color: #242635;
 }
-
+/*
 .arrow {
     width: 100%;
     max-width: 16px;
     height: 40px;
 }
+*/
 
+.img {
+    width: 100%;
+    max-width: 576px;
+    height: 648px;
+    color: #DBE4FF;
+    height: 100vh;
+    background-image: url(Bitmap.png);
+}
+/*
 .adaptive {
     width: 100%;
     height: 100vh;
 }
+*/
 
  @media screen and (max-width: 1000px) {
-    .adaptive-bg {
+    .img {
         background-image: url('../images/Bitmap.png');
     }
 } 
 @media screen and (max-width: 800px) {
-    .adaptive-bg {
+    .img {
         background-image: url('../images/Bitmap.png');
     }
 }
 
  @media screen and (min-width: 1001px) {
-    .adaptive-bg {
+    .img {
         background-image: url('../images/Bitmap.png');
     }
 } 
