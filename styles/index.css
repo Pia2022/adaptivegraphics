@@ -1,4 +1,5 @@
 body {
+    display: flex;
     max-width: 1440px;
 }
 
@@ -10,13 +11,14 @@ main {
 
 .content-one {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
 }
 
 
 nav {
     display: flex;
+    max-width: 1440px;
 
 }
 
@@ -94,7 +96,6 @@ nav {
     height: 648px;
     color: #DBE4FF;
     height: 100vh;
-    background-image: url(Bitmap.png);
 }
 /*
 .adaptive {
@@ -104,18 +105,22 @@ nav {
 */
 
  @media screen and (max-width: 1000px) {
-    .img {
-        background-image: url('../images/Bitmap.png');
+       .title {font-size: 36px;}
+       .text {font-size: 22px;}        
+       .img {background-image: url('../images/Bitmap-medium.png');
     }
 } 
-@media screen and (max-width: 800px) {
-    .img {
-        background-image: url('../images/Bitmap.png');
-    }
+@media screen and (max-width: 800px) {    
+       .title {font-size: 36px;}
+       .text {font-size: 12px;}
+       .img {background-image: url('../{images/Bitmap-small.png');}
+       .content-two {flex-direction: column;}
+       .main {max-width: 800px;}
 }
 
  @media screen and (min-width: 1001px) {
-    .img {
-        background-image: url('../images/Bitmap.png');
+        .title {font-size: 90px;}
+        .text {font-size: 22px;}
+        .img {background-image: url('../images/Bitmap-large.png');
     }
-} 
+ } 

@@ -33,10 +33,14 @@
     </section>
     <section class="img">
         <picture>
-            <source src="images/Bitmap.png" media="(max-width: 1000px)">
-            <source src="images/Bitmap.png" media="(max-width: 800px)">
-            <img srcset="images/Bitmap.png">    
+            <source srcset="images/Bitmap-small.png" media="(max-width: 800px)">
+            <source srcset="images/Bitmap-medium.png" media="(max-width: 1000px)">
+            <source srcset="images/Bitmap-large.png" media="(min-width: 1001px)">
+            <img src="images/Bitmap-small.png" alt=""> <!--same as picture 800px. default.--> 
+            
+            <!--<img src="images/Bitmap.png" alt="" srcset="images/Bitmap.png 2x, images/Bitmap.png 3x">-->
         </picture>
-    </section>   
+    </section>  
+    </main> 
 </body>
 </html>
